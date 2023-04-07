@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin:4px 0;
+    background-color: rgb(255, 254, 254);
+    
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial black;
+    height: 44px;
+    width: auto;
+    margin: 0  ;
+    background-color: rgb(46, 45, 45);
+   
+}
+header .nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(32, 197, 197, 0);
+    width: 100px;
+    height: 40px;
+    border-radius: 60px;
+    gap: 16px;
+}
+header .nav-link:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(43, 32, 197);
+    width: 120px;
+    height: 30px;
+    border-radius: 60px;
+    gap: 16px;
+    box-shadow: 2px 2px 2px #8251f5,
+    -2px -2px 3px #892fff;
+    
+}
+
+header .nav-link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: inherit;
+    color: aliceblue;
+    text-decoration-line: none;
+    margin: 0 14px;
+   
+}
+/*Cabeçalho ---------------------------------------------------------------------*/
+/* Corpo principal main-------------------------------------------------------------- */
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 97%;
+    height: 100vh;
+    box-shadow: 2px 2px 2px #8251f5,
+    -2px -2px 3px #892fff;
+    
+}
+.corpo .content{
+    margin: 6px 2px;
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    background-color: #8251f5;
+
+}
+.corpo .content .postagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 2px 2px #dad3ec;
+    width: 400px;
+    margin-top: 0;
+}
+.corpo .content .postagem .pot-titulo{
+    text-align: center;
+    background-color: #8251f5;
+    color: aliceblue;
+    margin-top: 0;
+    padding: 0;
+}
+.corpo .content .postagem .post-container{
+    display: flex;
+    box-shadow: 2px 2px 2px #8251f5;
+    background-color: #c5b2f098;
+    margin-top: 0;
+}
+.corpo .content .postagem .post-img{
+    justify-items: flex-start;
+    width: 220px;
+    height: 120px;
+    background-color: #8d8d8d;
+    
+   
+    
+}
+.corpo .content .postagem .post-text{
+    justify-items: flex-start;
+    width: 95%;
+    height: 93%;
+    background-color: inherit;
+    margin:0 4px;
+    
+   
+    
+}
+
+
+
+
