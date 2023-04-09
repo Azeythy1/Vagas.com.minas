@@ -67,14 +67,14 @@ header .nav-link a{
 
     
 }
-/* .corpo .content{  
+.corpo .content{  
     margin: 6px 2px;
     width: 200px;
     height: 370px;
     border-radius: 4px;
     
-} */
-/* .corpo .content .postagem{
+}
+.corpo .content .postagem{
     display: flex;
     flex-direction: column;
     box-shadow: 1px 2px 10px #4603e0;
@@ -83,8 +83,8 @@ header .nav-link a{
     justify-items: center;   
     width: 200px;
     height: 295px;
-} */
-/* .corpo .content .postagem .post-titulo{
+} 
+.corpo .content .postagem .post-titulo{
     width: auto;
     font-size: 14px;
     text-align: center;
@@ -94,29 +94,29 @@ header .nav-link a{
     margin-top: 0;
     border-radius: 4px;
     padding: 0;   
-} */
-/* .corpo .content .postagem .post-container{
+} 
+.corpo .content .postagem .post-container{
     display: flex;
     box-shadow: 2px 2px 2px #8251f5,
     -2px -2px 3px #892fff;
     align-items: center;   
     width: 100%   
-} */
-/* .corpo .content .postagem .post-container img{
+}
+.corpo .content .postagem .post-container img{
     justify-content: center;
     box-shadow: 2px 2px 2px #8251f5,
     -2px -2px 3px #892fff;   
     position: relative;
-} */
-/* .corpo .content .postagem .post-img{
+} 
+.corpo .content .postagem .post-img{
     align-items: center;
     height: 220px;
     width: 160px; 
     background-color: #f8f8f8;    
-} */
-/* .post-text{
+} 
+.post-text{
     display: none;
-} */
+} 
 
 
 
