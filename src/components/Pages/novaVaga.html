@@ -18,10 +18,10 @@
 
     <main class="corpo">
         <div class="content">
-           <form class="form" action="">
+           <card class="form" >
 
             <label for="">Titulo</label>
-            <input class="f1" type="text" name="titulo" id="input_post">
+            <input class="f1" type="text" name="titulo" id="input_titulo">
 
             <label for="">Imagem</label>
             <input class="f1" type="" name="titulo" id="input_img">
@@ -43,12 +43,36 @@
 
 
             <span class="nav-link">
-                <button id="btn_vaga" class="vaga">Enviar Vaga</button>
+                <button id="btnVaga" class="vaga" >Enviar Vaga</button>
             </span>
-           </form>
+           </card>
+           <div id="recebe"> 
+               <table border="1">
+                   <thead >
+                       <th>ID</th>
+                       <th>Titulo</th>
+                       <th>Requisitos</th>
+                       <th>Função</th>
+                       <th>Descrição</th>
+                       <th>Cidade</th>
+                   </thead>
+                   <tbody id="tbody">
+                    <tr>
+
+                        <td class="center">1</td>
+                        <td>Nova vaga</td>
+                        <td>nada ainda</td>
+                        <td>nenhuma ainda</td>
+                        <td>tudo a fazer</td>
+                        <td>Brasilia</td>
+
+                    </tr>    
+                    
+                   </tbody>
+               </table>
+           </div>
 
            <footer>
-        
            </footer>
         </div>  
 

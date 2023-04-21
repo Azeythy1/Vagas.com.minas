@@ -1,42 +1,48 @@
-// class Vagas{
-// constructor(titulo, img,requerimento,funcao,descricao,cidade){
+class Posts{
+constructor(){
+    this.id=1
+    this.dados=[]
+    
+}
+    salvar(){
+       
+        
+        
+        const btnVaga=document.querySelector("#btnVaga")
+        const iten=document.querySelector("#input_requisitos")
+        btnVaga.addEventListener("click",(evt)=>{
+             evt.preventDefault
+            //  const lista= document.querySelector('#input_post')
+          
+         let dadosRecebidos=document.querySelector("#input_titulo").target
+        
+             console.log(iten)
+        })
+    }
     
 
-//     this.tituloVaga=titulo
-//     this.imgVaga=img
-//     this.reqVaga=requerimento
-//     this.funcVaga=funcao
-//     this.descVaga=descricao
-//     this.cidadeVaga=cidade
-
-
-//     // const tituloVaga=document.querySelector("#title_post")
-//     // const imgVaga=document.querySelector("#post_img")
-//     // const reqVaga=document.querySelector("#post_requisitos")
-//     // const funcVaga=document.querySelector("#post_funcao")
-//     // const descVaga=document.querySelector("#post_descricao")
-//     // const cidadeVaga=document.querySelector("#post_cidade")
-//     console.log(titulo)
-// }
-// }
-// const vaga=new Vagas()
-
-
-
-
-
-// btnVaga.addEventListener("click",()=>{
-
-//     novaVaga.innerText=document.querySelector("#inputVaga")
-//     tituloVaga.innerText=document.querySelector("#inputTitulo")
-//     imgVaga.innerText=document.querySelector("#inputImg")
-//     reqVaga.innerText=document.querySelector("#inputReq")
-//     funcVaga.innerText=document.querySelector("#inputFunc")
-//     descVaga.innerText=document.querySelector("#inputDes")
-//     cidadeVaga.innerText=document.querySelector("#inputCidadetitulo")
+    lerDados(){
+        const titulo=document.querySelector("#input_post").value
+        const img=document.querySelector("#input_img").value
+        const requerimento=document.querySelector("#input_requisitos").value
+        const funcao=document.querySelector("#input_funcao").value
+        const descricao=document.querySelector("#input_descricao").value
+        const cidade=document.querySelector("#input_cidade").value
     
-// })
+       
+       
+    }
+    recebeDados(lerDados){
+        
+        console.log(lerDados)
+    }
+    
+    
+}
+var post=new Posts()
+post.salvar()
 
-const itens= document.querySelector("#post")
-console.log(itens)
+
+
+
 
