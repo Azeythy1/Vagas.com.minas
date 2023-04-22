@@ -145,12 +145,12 @@ header .nav-link a{
     
       
 }
-.corpo .content .post-vagas .post-container img{
+/* .corpo .content .post-vagas .post-container img{
     justify-content: center;
     box-shadow: 2px 2px 2px #8251f5,
     -2px -2px 3px #892fff;   
     position: relative;
-} 
+}  */
 .corpo .content .post-vagas .post-img{
     align-items: center;
     height: 220px;
@@ -211,4 +211,36 @@ text-transform: uppercase;
 
 #recebe table thead th{
     background-color: #9892af;
+}
+
+.corpo .content .card{
+    display: flex;
+    box-shadow: 2px 2px 2px #8251f5,
+    -2px -2px 3px #892fff;
+    align-items: center;   
+    position: relative;
+    transition: all 400ms ease;
+    transform-style: preserve-3d;
+    
+      
+}
+.face{
+width: 100%;
+height: 100%;
+position: absolute;
+background-size: cover;
+background-position: center;
+
+}
+.frente{
+transform: rotateY(180deg);
+}
+
+.verso{
+   
+    backface-visibility: hidden;
+
+}
+.card:hover{
+    transform: rotatey(180deg);
 }
