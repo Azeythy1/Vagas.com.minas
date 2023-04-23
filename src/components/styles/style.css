@@ -135,7 +135,7 @@ header .nav-link a{
 /* Corpo principal main-------------------------------------------------------------- */
 
 .corpo{
-   display: flex;
+   
     margin: 10px;
     border-radius: 4px;
     box-shadow: 2px 2px 2px #8251f5,
@@ -145,20 +145,20 @@ header .nav-link a{
     
 }
 .corpo .content{
-    flex-wrap: wrap;
-    justify-content: space-around;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction:column;
-    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    
+    
+    
 }
 .corpo .content .card{
     width: 360px;
     height: 600px;  
     min-height: 569px;
     box-shadow: 2px 2px 5px #d4cece,
-    -2px -2px 3px #c1bcc7;  
+    -2px -2px 3px #c1bcc7;
+    margin-bottom: 10px;  
   
 }
 
@@ -190,6 +190,7 @@ img{
 }
 .post-text{
     margin-top: 40px;
+    margin-left: 4px;
 }
    
     
