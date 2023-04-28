@@ -144,6 +144,14 @@ header .nav-link a{
 
     
 }
+.corpo .contents{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    
+    
+    
+}
 .corpo .content{
     display: flex;
     justify-content: space-evenly;
@@ -153,12 +161,13 @@ header .nav-link a{
     
 }
 .corpo .content .card{
+    align-items: stretch;
     width: 360px;
-    height: 600px;  
-    min-height: 569px;
+    height: 500px;  
     box-shadow: 2px 2px 5px #d4cece,
     -2px -2px 3px #c1bcc7;
     margin-bottom: 10px;  
+    
   
 }
 
@@ -168,8 +177,9 @@ header .nav-link a{
     transform: rotatey(180deg);
 }
 .face{
+    align-items: stretch;
     width: 360px;
-    height: 569px;
+    height: 500px;
     position: absolute;
     background-size: cover;
     background-position: center;
@@ -180,14 +190,16 @@ header .nav-link a{
     backface-visibility: hidden;
     transform: rotateY(180deg);
     margin-top: 0px;
+  
+    
     
 }
-
-img{
-    width: 360px;
-    height: 569px;
+.verso{
     border-radius: 7px;
+    margin-top: 0px;
+ 
 }
+
 .post-text{
     margin-top: 40px;
     margin-left: 4px;

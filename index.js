@@ -1,48 +1,41 @@
-class Posts{
-constructor(){
-    this.id=1
-    this.dados=[]
-    
+const content=document.querySelector('.content ')
+
+const vagas=[
+    'img1',
+    'img2',
+    'img3',
+    'img4',
+    'img5',
+    'img6',
+   
+];
+const creatElement=(tag,className)=>{
+    const element=document.createElement(tag)
+    element.className=className
+    return element;
 }
-    salvar(){
-       
-        
-        
-        const btnVaga=document.querySelector("#btnVaga")
-        const iten=document.querySelector("#input_requisitos")
-        btnVaga.addEventListener("click",(evt)=>{
-             evt.preventDefault
-            //  const lista= document.querySelector('#input_post')
-          
-         let dadosRecebidos=document.querySelector("#input_titulo").target
-        
-             console.log(iten)
-        })
-    }
-    
 
-    lerDados(){
-        const titulo=document.querySelector("#input_post").value
-        const img=document.querySelector("#input_img").value
-        const requerimento=document.querySelector("#input_requisitos").value
-        const funcao=document.querySelector("#input_funcao").value
-        const descricao=document.querySelector("#input_descricao").value
-        const cidade=document.querySelector("#input_cidade").value
-    
-       
-       
-    }
-    recebeDados(lerDados){
-        
-        console.log(lerDados)
-    }
-    
-    
+const creatCard=(vaga)=>{
+
+    const card=creatElement('div','card')
+    const back=creatElement('div','face frente')
+    const front=creatElement('div','face verso')
+
+
+    front.style.backgroundImage =`url('../../../src/img/${vaga}.jpg')`;
+
+    card.appendChild(front)
+    card.appendChild(back)
+return card
 }
-var post=new Posts()
-post.salvar()
 
 
+const loadPage=()=>{
 
+    vagas.forEach((vaga)=>{
+    const card=creatCard(vaga)
+    content.appendChild(card)
+    })
+}
 
-
+loadPage()
