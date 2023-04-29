@@ -161,45 +161,44 @@ header .nav-link a{
     
 }
 .corpo .content .card{
-    align-items: stretch;
-    width: 360px;
-    height: 500px;  
+    width: 430px;
+    height: 450px;
+    background-size: cover;
+    background-position:center  ;
+    justify-content: center;
+    align-items: center;
     box-shadow: 2px 2px 5px #d4cece,
     -2px -2px 3px #c1bcc7;
     margin-bottom: 10px;  
     
   
 }
-
-.card:hover{
-    transition: all 890ms ease;
-    transform-style: preserve-3d;
-    transform: rotatey(180deg);
-}
+/* 
 .face{
-    align-items: stretch;
-    width: 360px;
-    height: 500px;
-    position: absolute;
-    background-size: cover;
-    background-position: center;
-
-}
-.frente{
-    border-radius: 7px;
-    backface-visibility: hidden;
-    transform: rotateY(180deg);
-    margin-top: 0px;
   
-    
-    
-}
-.verso{
-    border-radius: 7px;
-    margin-top: 0px;
  
 }
 
+.frente{
+   
+  
+}
+.verso{
+   display: flex;
+ 
+}
+*/
+/* .img{
+    width: 230px;
+    height: 400px;
+    background-size: cover;
+    background-position:  ;
+    justify-content: center;
+    align-items: center;
+  
+
+    
+}  */
 .post-text{
     margin-top: 40px;
     margin-left: 4px;

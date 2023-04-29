@@ -18,14 +18,16 @@ const creatElement=(tag,className)=>{
 const creatCard=(vaga)=>{
 
     const card=creatElement('div','card')
-    const back=creatElement('div','face frente')
-    const front=creatElement('div','face verso')
+    
+    // const front=creatElement('div','face verso')
+    // const img=creatElement('img','img')
 
 
-    front.style.backgroundImage =`url('../../../src/img/${vaga}.jpg')`;
+    card.style.backgroundImage =`url('../../../src/img/${vaga}.jpg')`;
 
-    card.appendChild(front)
-    card.appendChild(back)
+    // front.appendChild(img)
+    // card.appendChild(front)
+    
 return card
 }
 
